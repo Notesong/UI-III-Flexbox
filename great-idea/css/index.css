@@ -64,3 +64,176 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	margin: 20px 40px;
+}
+
+
+/* main header and navigation */
+
+#main-header {
+	display: flex;
+	align-items: center;
+}
+
+#main-nav-bar {
+	width: 70%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#main-nav-bar a {
+	text-decoration: none;
+	color: darkgray;
+}
+
+#main-nav-bar a:hover {
+	color: black;
+}
+
+
+/* index content header + learn-button on services page */
+
+main {
+	margin-top: 20px;
+}
+#main-content-header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#content-header {
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#content-header h1 {
+	font-size: 4em;
+	text-align: center;
+}
+
+#header-img-container {
+	width: 48%;
+}
+
+#get-started-button, .learn-button {
+	border: 2px solid darkgray;
+	background: white;
+	padding: 5px 40px;
+}
+
+
+/* index content sections */
+
+#top-content {
+	display: flex;
+	margin-top: 60px;
+	border-top: 2px solid darkgray;
+}
+
+#bottom-content {
+	display: flex;
+	border-bottom: 2px solid darkgray;
+}
+
+.text-box {
+	display: flex;
+	flex-direction: column;
+	margin: 40px 0;
+	padding: 0 5px;
+}
+
+#middle-img {
+	display: block;
+	width: 100%
+}
+
+
+
+/* services sections */
+
+#services-main-content-header {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+	border-bottom: 2px solid darkgray;
+	margin-bottom: 30px;
+}
+
+#services-header-img-container img {
+	display: block;
+	width: 100%
+}
+
+#services-main-content-header h1 {
+	margin-top: 20px;
+	font-size: 1.5em;
+}
+
+#services-boxes {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.services-text-box {
+	padding: 15px;
+	width: 48%;
+	border: 2px solid darkgray;
+	background: #f0f0f0;
+	margin-bottom: 30px;
+}
+
+.learn-button {
+	margin-top: 20px;
+}
+
+#services-bottom-content {
+	display: flex;
+	justify-content: space-between;
+	border-top: 2px solid darkgray;
+	padding-top: 30px;
+	margin-bottom: 80px;
+}
+
+#services-facts-text {
+	width: 48%;
+}
+
+#services-facts-text p {
+	padding-bottom: 15px;
+}
+
+#services-facts-text li {
+	list-style-type: disc;
+	margin: 15px 0 0 20px; 
+}
+
+#services-info-img {
+	width: 48%;
+	min-height: 300px;
+	background: url(../img/services-info.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+/* footer */
+
+footer {
+	margin-top: 40px;
+}
+
+footer p {
+	padding-bottom: 20px;
+}
+
+#copyright {
+	text-align: center;
+	margin-top: 30px;
+}
