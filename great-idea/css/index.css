@@ -118,6 +118,11 @@ main {
 
 #header-img-container {
 	width: 48%;
+	height: 379px;
+	background: url(../img/header-img.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;	
 }
 
 #get-started-button, .learn-button {
